@@ -1,2 +1,2 @@
-# mcfnet   Medical image of  different  fusion
+#MCFNet: Multi-layer Concatenation Fusion Network for Medical Image fusion
 
