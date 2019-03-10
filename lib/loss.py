@@ -1,5 +1,5 @@
 import tensorflow as tf
-from ops import layers
+
 
 def l1_loss(input_, target_, lamb=1.0, name="l1_loss"):
     with tf.name_scope(name):
