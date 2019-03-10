@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 CUDA_VISIBLE_DEVICES=0 python main.py \
-    --output_dir ./result/ \
+    --output_dir ./data/output \
     --summary_dir ./result/log/ \
     --mode inference \
     --is_training False \
-    --task SRGAN \
-    --input_dir_LR ./data/test_LR/ \
-    --num_resblock 16 \
+    --task mcfnet \
+    --input_dir_l ./data/source1/ \
+    --input_dir_r ./data/source2/ \
+    --num_resblock 32 \
     --perceptual_mode VGG54 \
     --pre_trained_model True \
-    --checkpoint ./SRGAN_pre-trained/model-200000
+    --checkpoint ./mcfnet_pre-trained/model-200000
