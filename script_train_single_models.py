@@ -1,5 +1,5 @@
 import sys
-#sys.path.append('/home/tau/myang/ClimateSaclayRepo/')
+
 import os
 import argparse
 
@@ -16,9 +16,7 @@ from Utils.funcs import *
 from Utils.model_inputs_3D import load_datasets
 from Utils.save_figs_logs import save_log_2D, save_fig_2D
 
-######################
-# hyper-parameters to set here
-######################
+
 
 data_dir = "/data/titanic_1/users/sophia/myang/model/data_3d_uvz_historic12h/"
 log_dir = "/data/titanic_1/users/sophia/myang/logs/3conv_models_24h/"
