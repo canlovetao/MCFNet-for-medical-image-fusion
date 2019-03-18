@@ -1,4 +1,4 @@
-# MCFNetMulti-layer Concatenation Fusion Network for Medical Image fusion
+# MCFNet：  Multi-layer Concatenation Fusion Network for Medical Image fusion
 
 
 
